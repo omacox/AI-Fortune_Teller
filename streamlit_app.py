@@ -9,8 +9,6 @@ import webbrowser
 import random
 import os
 
-api_key = os.getenv('AAI_API_KEY')
-openai_api_key = os.getenv('OPENAI_API_KEY')
 
 # Prompt
 full_transcript = [

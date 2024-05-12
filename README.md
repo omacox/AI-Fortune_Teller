@@ -1,6 +1,6 @@
 # realtime AI Fortune Teller
 
-### Additions
+## Additions
 
 ```python
 python3 -m venv venv
@@ -12,7 +12,11 @@ pip install -r requirements.txt
 
 ## Make sure you secret.toml is created in your user .streamlit folder (using Mac OS M2)
 
-- reference this link
+- you may have a creditals.toml copy it and add your keys
+- api_key = (for assemblyAI key)
+- open_api_key = (openai key)
+
+- reference this link for other information
 - <https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management>
 
 ### 1. Obtain the AssemblyAI API key & OpenAI API & Store API Keys
@@ -35,5 +39,3 @@ pip install -r requirements.txt
 ```bash
 streamlit run streamlit_app.py
 ```
-
-# AI-Fortune_Teller
